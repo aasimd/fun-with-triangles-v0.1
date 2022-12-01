@@ -37,12 +37,17 @@ ul {
 ul li{
     display: inline-block;
     padding: 0.5rem 1rem;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: 'Roboto Slab', serif;
-    font-weight: bold;
+    font-weight: ;
     text-decoration: underline;
     color: var(--secondary-color) ;
    
+}
+
+.active-link{
+    font-size: 2rem;
+    font-weight: bold;
 }
 a:-webkit-any-link {
     color: inherit;
@@ -67,10 +72,12 @@ a:-webkit-any-link {
 }
 
 .heading{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
     text-align: center;
     color:black;
     margin: 2rem;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .description{
     text-align: center;
@@ -88,17 +95,27 @@ a:-webkit-any-link {
 .bttn{
     text-align: center;
 }
+#is-triangle-btn{
+    margin-top: 2rem;
+}
 .primary-button{
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-size: 2rem;
     border-radius: 0.8rem;
     border: 1px --secondary-color solid;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 .output{
     padding: 1rem;
     text-align: center;
+}
+.results-output{
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /*footer*/

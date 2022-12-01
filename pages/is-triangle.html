@@ -3,42 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.65">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Is triangle?</title>
 </head>
 <body>
-    <nav>
-        <h1>Fun with Triangles</h1>
-        <a href="/is-triangle.html">Is triangle?</a>
-        <a href="/quiz.html">Quiz</a>
-        <a href="/hypotenuse.html">Hypotenuse</a>
-        <a href="/area-of-triangle.html">Area of Triangle</a>
+    <nav class="nav-list">
+        <h1 class="nav-heading center-container">Fun with Triangles</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="/pages/is-triangle.html" class="active-link">Is triangle?</a>
+                </li>
+                <li>
+                    <a href="/index.html">Quiz</a>
+                </li>
+                <li>
+                    <a href="/pages/hypotenuse.html">Hypotenuse</a>
+                </li>
+                <li>
+                    <a href="/pages/area-of-triangle.html">Area of Triangle</a>
+                </li>
+            </ul>
+        </div>    
     </nav>
-    <h1>Is Triangle?</h1>
-    <p>enter 3 angles below to form a triangle.</p>
-    <div>
-        <label for="angle1">Angle 1:</label>
-    </div>
-    <div>
-        <input type="number" class="angle-inputs">
-    </div>
-    <div>
-        <label for="angle2">Angle 2:</label>
-    </div>
-    <div>
-        <input type="number" class="angle-inputs">
-    </div>
-    <div>
-        <label for="angle3">Angle 3:</label>
-    </div>
-    <div>
-        <input type="number" class="angle-inputs">
-    </div>
-    <div>
-        <button id="is-triangle-btn">Is Triangle?</button>
-    </div>
-    <div id="output-box"></div>
 
-    <script src="is-triangle.js"></script>
+    <div class="container center-container" >
+        <h1 class="heading">Is triangle?</h1>
+        <p class="description center-container">enter 3 angles below to form a triangle.</p>
+        <div class="area-content" >
+            <div class="questions">
+                <label for="angle1" class="area-label">Angle 1:</label>
+                <input type="number" class="angle-inputs area-input">
+            </div>
+            <div class="questions">
+                <label for="angle2" class="area-label">Angle 2:</label>
+                <input type="number" class="angle-inputs area-input">
+            </div>
+            <div class="questions">
+                <label for="angle3" class="area-label">Angle 3:</label>
+                <input type="number" class="angle-inputs area-input">
+            </div>
+            <div class="bttn" >
+                <button id="is-triangle-btn" class="primary-button">Check</button>
+            </div>
+            <div id="output-box" class="area-output"></div>
+            </div>
+        
+    </div>
+    <footer>
+        <div class="contact-info">
+            <p class="credit">
+            project by Aasim  2022©️
+            </p>
+            <li class="non-bullet">
+            <a target="_blank" href="https://linkedin.com/in/aasim-dongarkar-28b365231"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="non-bullet">
+            <a href="https://twitter.com/dthree01"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="non-bullet">
+            <a href="https://github.com/aasimd"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </div>
+        </li>
+        
+    </footer>
+
+    <script src="/scripts/is-triangle.js"></script>
 </body>
 </html>
