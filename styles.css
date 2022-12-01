@@ -59,7 +59,7 @@ a:-webkit-any-link {
 
 .center-container{
     margin: auto;
-    width: 800px;
+    width: 500px;
     background-color: 
     var(--primary-color);
 }
