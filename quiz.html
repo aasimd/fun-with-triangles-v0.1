@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" href="styles.css">
+    <title>quiz</title>
+</head>
+<body>
+    <nav class="nav-list">
+        <h1 class="nav-heading">Fun with Triangles</h1>
+        <div>
+            <ul >
+            <li>
+                <a href="/is-triangle.html">Is triangle?</a>
+            </li>
+            <li>
+                <a href="/quiz.html">Quiz</a>
+            </li>
+            <li>
+                <a href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li>
+                <a href="/area-of-triangle.html">Area of Triangle</a>
+            </li>
+        </ul>
+        </div>
+        
+    </nav>
+
+    <div class="container ">
+        <h1 class="heading center-container">Quiz on Triangles</h1>
+    <p class="description center-container">Answer the questions below and we will show you your Final score</p>
+
+    <form class="quiz-answers center-container">
+        <ol>
+            <li class="questions">
+                <p>
+                    What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+                </p>
+                <label for="question1"><input type="radio" name="question1" value="45°">45°</label><p></p>
+                <label for="question1"><input type="radio" name="question1" value="90°">90°</label><p></p>
+                <label for="question1"><input type="radio" name="question1" value="60°">60°</label>
+            </li>
+            <li class="questions">
+                <p>
+                    What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+                </p>
+                <label for="question2"><input type="radio" name="question2" value="obtuse">obtuse</label><p></p>
+                <label for="question2"><input type="radio" name="question2" value="acute">acute</label><p></p>
+                <label for="question2"><input type="radio" name="question2" value="right angled">right angled</label>
+            </li>
+            <li class="questions">
+                <p>
+                    A triangle can have...
+                </p>
+                <label for="question3"><input type="radio" name="question3" value="one right angle">one right angle</label><p></p>
+                <label for="question3"><input type="radio" name="question3" value="two right angles">two right angles</label><p></p>
+            </li>
+            <li class="questions">
+                <p>
+                    Which of the following can form a right angled triangle?
+                </p>
+                <label for="question4"><input type="radio" name="question4" value="14, 15, 26">14, 15, 26</label><p></p>
+                <label for="question4"><input type="radio" name="question4" value="12, 16, 20">12, 16, 20</label><p></p>
+            </li>
+            <li class="questions">
+                <p>
+                    Which of the following triangles are always similar?
+                </p>
+                <label for="question5"><input type="radio" name="question5" value="Equilateral triangle">Equilateral triangle</label><p></p>
+                <label for="question5"><input type="radio" name="question5" value=" Isosceles triangle"> Isosceles triangle</label><p></p>
+            </li>
+            <li class="questions">
+                <p>
+                    If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?
+                </p>
+                <label for="question6"><input type="radio" name="question6" value="85°">85°</label><p></p>
+                <label for="question6"><input type="radio" name="question6" value="100°">100°</label><p></p>
+            </li>
+            <li class="questions">
+                <p>
+                    If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?
+                </p>
+                <label for="question7"><input type="radio" name="question7" value="30°">30°</label><p></p>
+                <label for="question7"><input type="radio" name="question7" value="10°">10°</label><p></p>
+            </li>
+            <li class="questions">
+                <p>
+                    The perimeter of scalene triangle with sides a, b, c is
+                </p>
+                <label for="question8"><input type="radio" name="question8" value="a + b + c">a + b + c</label><p></p>
+                <label for="question8"><input type="radio" name="question8" value="2a">2a</label><p></p>
+                <label for="question8"><input type="radio" name="question8" value="None of these">None of these</label><p></p>
+            </li>
+            <li class="questions">
+                <p>
+                    A scalene triangle has ___ lines of symmetry
+                </p>
+                <label for="question9"><input type="radio" name="question9" value="two">two</label><p></p>
+                <label for="question9"><input type="radio" name="question9" value="no">no</label><p></p>
+                <label for="question9"><input type="radio" name="question9" value="15">15</label><p></p>
+            </li>
+            <li class="questions">
+                <p>
+                    There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?
+                </p>
+                <label for="question10"><input type="radio" name="question10" value="85°">85°</label><p></p>
+                <label for="question10"><input type="radio" name="question10" value="65°">65°</label><p></p>
+                <label for="question10"><input type="radio" name="question10" value="45°">45°</label><p></p>
+            </li>
+        </ol>    
+    </form>
+    <div class="bttn">
+        <button id="enter-btn" class="primary-button">Submit</button>
+    </div>
+    
+
+    <div id="score-box"></div>
+    </div>
+    
+
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>

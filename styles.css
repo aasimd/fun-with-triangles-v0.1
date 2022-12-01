@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;800&display=swap');
+
+/*font-family: 'Roboto Slab', serif;*/
+body{
+    margin: 0%;
+    font-family: 'Zen Dots', cursive;
+    --primary-color:#ddf2fb ;
+    --secondary-color:#063970;
+}
+
+
+.nav-heading{
+    margin: 0%;
+    padding: 2rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+nav{
+    background-image: url(/images/blue_abstract_geometric_triangular_background.jpg);
+    background-size: contain;
+    background-color: #ffffff73;
+    background-blend-mode: multiply;
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: inherit;
+    margin-inline-end: inherit;
+    padding-inline-start: inherit;
+    background-color: rgba(0, 0, 0, 0.08) ;
+}
+ul li{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--secondary-color) ;
+   
+}
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-list div {
+    text-align: center;
+}
+.container{
+    margin: auto;
+    padding: 2rem;
+    background-color: 
+    var(--primary-color);
+}
+
+.center-container{
+    margin: auto;
+    width: 800px;
+    background-color: 
+    var(--primary-color);
+}
+
+.heading{
+    text-align: center;
+    color: var(--secondary-color);
+    padding-bottom: 1rem;
+}
+.description{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.questions {
+    padding: 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.bttn{
+    text-align: center;
+}
+.primary-button{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    border: 1px --secondary-color solid;
+    margin-bottom: 4rem;
+}
+
