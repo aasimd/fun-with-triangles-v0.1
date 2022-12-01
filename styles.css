@@ -52,7 +52,7 @@ a:-webkit-any-link {
 }
 .container{
     margin: auto;
-    padding: 2rem;
+    padding: 2rem; 
     background-color: 
     var(--primary-color);
 }
