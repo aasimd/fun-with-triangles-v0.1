@@ -4,45 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css">
     <title>Area of Triangle</title>
 </head>
 <body>
-    <nav>
-        <h1 class="nav-heading">Fun with Triangles</h1>
-        <ul>
-            <li>
-                <a href="/is-triangle.html">Is triangle?</a>
-            </li>
-            <li>
-                <a href="/quiz.html">Quiz</a>
-            </li>
-            <li>
-                <a href="/hypotenuse.html">Hypotenuse</a>
-            </li>
-            <li>
-                <a href="/area-of-triangle.html">Area of Triangle</a>
-            </li>
-        </ul>
+    <nav class="nav-list">
+        <h1 class="nav-heading center-container">Fun with Triangles</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="/pages/is-triangle.html">Is triangle?</a>
+                </li>
+                <li>
+                    <a href="/index.html">Quiz</a>
+                </li>
+                <li>
+                    <a href="/pages/hypotenuse.html">Hypotenuse</a>
+                </li>
+                <li>
+                    <a href="/pages/area-of-triangle.html">Area of Triangle</a>
+                </li>
+            </ul>
+        </div>
+        
     </nav>
-    
-    <h1>Area of Triangle</h1>
-    <p>
+    <div class="container center-container ">
+        <h1 class="heading">Area of Triangle</h1>
+        <p class="description center-container">
         Enter base value and height value of triangle to know the Area of Triangle.
-    </p>
-
-    <div>
-        <label for="base-value">Enter Base value(a)=</label>
-        <input type="number" id="base-value">
+        </p>
+        <div class="area-content">
+            <div class="questions">
+                <label class="area-label"
+                for="base-value">Enter Base value(a)=</label>
+                <input type="number" id="base-value">
+            </div>
+            <div class="questions">
+                <label class="area-label "for="height-value">Enter Height value(b)=</label>
+                <input type="number" id="height-value">
+            </div>
+        </div>
+        
+        <div class="bttn">
+            <button id="calculate-button" class="primary-button">Calculate Area </button>
+        </div>
+       
+        <div id="area-output" class="area-output"></div>
     </div>
-    <div>
-        <label for="height-value">Enter Height value(b)=</label>
-        <input type="number" id="height-value">
-    </div>
-    <button id="calculate-button">Calculate Area </button>
-    <div id="area-output"></div>
+    <footer>
+        <div class="contact-info">
+            <p class="credit">
+            project by Aasim  2022©️
+            </p>
+            <li class="non-bullet">
+            <a target="_blank" href="https://linkedin.com/in/aasim-dongarkar-28b365231"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="non-bullet">
+            <a href="https://twitter.com/dthree01"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="non-bullet">
+            <a href="https://github.com/aasimd"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </div>
+        </li>
+        
+    </footer>
 
 
-    <script src="area-of-triangle.js"></script>
+    <script src="/scripts/area-of-triangle.js"></script>
 </body>
 </html>
