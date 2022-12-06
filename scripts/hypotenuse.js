@@ -9,7 +9,8 @@ function sumOfSquares (a,b){
 }
 function getHypotenuse () {
     var hypotenuse = Math.sqrt(sumOfSquares(Number(baseSide.value) , Number(heightSide.value)));
-    hypotenuseOutput.innerText = "By using the Hypotenuse theorem, the hypotenuse is " + hypotenuse + " units"
+    var hypotenuse2 = hypotenuse.toFixed(2)
+    hypotenuseOutput.innerText = "By using the Hypotenuse theorem, the hypotenuse is " + hypotenuse2 + " units"
 }
 
 calculateBtn.addEventListener("click",getHypotenuse)
